@@ -50,77 +50,77 @@ The primary objective of this data science project is to explore, analyze, and g
 
 # Research Questions
 
-Trend Analysis:
+1. Trend Analysis:
 
 What is the trend in the number of PERM applications filed over the selected fiscal years?
 Can we identify any seasonality or long-term trends in application submissions?
 
-Approval Rates Over Time:
+2. Approval Rates Over Time:
 
 How have the approval rates for PERM applications changed from 2019 to 2022?
 Are there any noticeable variations in approval rates across different industries or regions?
 
-Processing Time Trends:
+3. Processing Time Trends:
 
 Is there a trend in the average processing time for PERM applications?
 Have processing times improved or worsened over the years?
 
-Industry Insights:
+4. Industry Insights:
 
 Which industries have the highest and lowest certification rates?
 Can we visualize the distribution of approved applications across various sectors?
 
-Geographical Analysis:
+5. Geographical Analysis:
 
 What are the top states with the highest number of PERM applications?
 Are there states where the approval rates significantly differ from the national average?
 
-Top Occupations:
+6. Top Occupations:
 
 Which job categories consistently receive the most certifications?
 Can we visualize the top occupations that foreign workers are hired for?
 
-Wage Distribution:
+7. Wage Distribution:
 
 How does the wage distribution vary across different job categories?
 Are there job categories where the offered wages tend to be higher or lower?
 
-Country of Origin:
+8. Country of Origin:
 
 What are the primary countries of origin for foreign workers in PERM applications?
 Can we visualize the diversity in the nationalities of foreign workers?
 
-Processing Times by Country:
+9. Processing Times by Country:
 
 Are there significant differences in processing times for applications from specific countries?
 Can we visualize the average processing times by country of the foreign worker?
 
-Impact of Visa Preference:
+10. Impact of Visa Preference:
 
 How does the choice of visa preference category affect approval rates?
 Are certain preference categories more likely to lead to certification?
 
-Changes Over Fiscal Years:
+11. Changes Over Fiscal Years:
 
 Can we identify any noteworthy changes in the data trends or patterns between 2019 and 2022?
 Are there any outliers or anomalies in specific years that require investigation?
 
-Correlation Analysis:
+12. Correlation Analysis:
 
 Is there a correlation between factors like offered wages and approval rates?
 Can we identify any strong relationships between variables using correlation matrices?
 
-Visualization of Denials:
+13. Visualization of Denials:
 
 Visualize the reasons for application denials or withdrawals, highlighting common issues.
 Are there trends in the types of documentation problems leading to denials?
 
-Policy Analysis:
+14. Policy Analysis:
 
 Use visualizations to highlight policy changes over the years and their potential impact on certification rates.
 Are there notable changes in the data coinciding with specific policy changes?
 
-Interactive Dashboards:
+15. Interactive Dashboards:
 
 Create interactive dashboards to allow users to explore the data, filter by various criteria, and gain insights on-demand.
 
