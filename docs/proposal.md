@@ -129,4 +129,4 @@ Create interactive dashboards to allow users to explore the data, filter by vari
 - The dataset consists of last four years information (2019-2022)
 - Source: [Dataset Source](https://www.dol.gov/agencies/eta/foreign-labor/performance)
 - Data Size: 1069.51 MB
-- Data Shape (Number of Rows and Columns): Approx 500k, 125 Columns
+- Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
