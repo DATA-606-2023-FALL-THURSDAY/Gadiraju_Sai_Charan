@@ -17,6 +17,13 @@ For this data science final project, I will analyze the PERM (Program Electronic
 - **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019 Disclosure Files](https://www.dol.gov/agencies/eta/foreign-labor/performance)
 - **Data Description**: The dataset consists of disclosure files for the PERM program, a labor certification program for employers seeking to hire foreign workers for permanent employment in the United States.
 
+# Data
+
+- The dataset consists of last four years information (2019-2022)
+- Source: [Dataset Source](https://www.dol.gov/agencies/eta/foreign-labor/performance)
+- Data Size: 1069.51 MB
+- Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
+
 ## Project Objective
 
 The primary objective of this data science project is to explore, analyze, and gain insights from the PERM program disclosure data for the fiscal years 2022, 2021, 2020, and 2019. I aim to answer various research questions, uncover trends, and provide valuable information.
@@ -123,10 +130,3 @@ Are there notable changes in the data coinciding with specific policy changes?
 15. Interactive Dashboards:
 
 Create interactive dashboards to allow users to explore the data, filter by various criteria, and gain insights on-demand.
-
-# Data
-
-- The dataset consists of last four years information (2019-2022)
-- Source: [Dataset Source](https://www.dol.gov/agencies/eta/foreign-labor/performance)
-- Data Size: 1069.51 MB
-- Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
