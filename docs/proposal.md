@@ -24,27 +24,27 @@ For this data science final project, I will analyze the PERM (Program Electronic
 - Data Size: 1069.51 MB
 - Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
 - Columns:
-  CASE_NUMBER - Unique identifier assigned to each application submitted for processing to OFLC.
-  DECISION_DATE - Date on which the determination was issued by OFLC.
-  CASE_STATUS - Status associated with the last significant event or decision. Valid values include “Certified”, “Certified-Expired”, “Denied”, and “Withdrawn”. 
-  REFILE - Identifies if application was previously filed. Y = Employer has previously submitted an Application. N = Employer has not previously submitted an Application. Form ETA-9089, Section A, Item 1. 
-  ORIG_FILE_DATE - Date application was originally filed (if applicable). Form ETA-9089, Section A, Item 1-A. 
-  SCHD_A_SHEEPHERDER - Identifies whether the application is in support of Schedule A or a Sheepherder Occupation. Y = Application is in support of a Schedule A or Sheepherder Occupation. N = Application is not in support of a Schedule A or Sheepherder Occupation. Form ETA-9089, Section B, Item 1. 
-  EMPLOYER_NAME - Legal business name of employer requesting permanent labor certification. Form ETA-9089, Section C, Item 1. 
-  EMPLOYER_ADDRESS_1 - Contact information of the employer requesting permanent labor certification. Form ETA-9089, Section C, Items 2 through 4. 
-  EMPLOYER_ADDRESS_2 
-  EMPLOYER_CITY
-  EMPLOYER_COUNTRY
-  EMPLOYER_POSTAL_CODE
-  EMPLOYER_PHONE
-  EMPLOYER_PHONE_EXT
-  EMPLOYER_NUM_EMPLOYEES - Total Number of employees employed by employer. Form ETA-9089, Section C, Item 5. 
-  FW_OWNERSHIP_INTEREST - Identifies if the foreign worker has ownership interest or familial relationship with the Employer. Y = Foreign Worker has Ownership Interest; N = Foreign Worker has no Ownership Interest. Form ETA9089, Section C, Item 9. 
-  PW_SOC_CODE - Occupational code associated with the job being requested for permanent labor certification, as classified by the Standard Occupational Classification (SOC) System. Form ETA-9089, Section F, Item 2. 
-  PW_SOC_TITLE - Occupational title associated with the SOC/O*NET Code. Form ETA9089, Section F, Item 3. 
-  COUNTRY_OF_CITIZENSHIP - Country of citizenship of the foreign worker being sponsored by the employer for permanent employment in the United States.
-  CLASS_OF_ADMISSION - Indicates the current visa status of the foreign worker.
-  FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level achieved by the foreign worker.
+  - CASE_NUMBER - Unique identifier assigned to each application submitted for processing to OFLC.
+  - DECISION_DATE - Date on which the determination was issued by OFLC.
+  - CASE_STATUS - Status associated with the last significant event or decision. Valid values include “Certified”, “Certified-Expired”, “Denied”, and “Withdrawn”. 
+  - REFILE - Identifies if application was previously filed. Y = Employer has previously submitted an Application. N = Employer has not previously submitted an Application. Form ETA-9089, Section A, Item 1. 
+  - ORIG_FILE_DATE - Date application was originally filed (if applicable). Form ETA-9089, Section A, Item 1-A. 
+  - SCHD_A_SHEEPHERDER - Identifies whether the application is in support of Schedule A or a Sheepherder Occupation. Y = Application is in support of a Schedule A or Sheepherder Occupation. N = Application is not in support of a Schedule A or Sheepherder Occupation. Form ETA-9089, Section B, Item 1. 
+  - EMPLOYER_NAME - Legal business name of employer requesting permanent labor certification. Form ETA-9089, Section C, Item 1. 
+  - EMPLOYER_ADDRESS_1 - Contact information of the employer requesting permanent labor certification. Form ETA-9089, Section C, Items 2 through 4. 
+  - EMPLOYER_ADDRESS_2 
+  - EMPLOYER_CITY
+  - EMPLOYER_COUNTRY
+  - EMPLOYER_POSTAL_CODE
+  - EMPLOYER_PHONE
+  - EMPLOYER_PHONE_EXT
+  - EMPLOYER_NUM_EMPLOYEES - Total Number of employees employed by employer. Form ETA-9089, Section C, Item 5. 
+  - FW_OWNERSHIP_INTEREST - Identifies if the foreign worker has ownership interest or familial relationship with the Employer. Y = Foreign Worker has Ownership Interest; N = Foreign Worker has no Ownership Interest. Form ETA9089, Section C, Item 9. 
+  - PW_SOC_CODE - Occupational code associated with the job being requested for permanent labor certification, as classified by the Standard Occupational Classification (SOC) System. Form ETA-9089, Section F, Item 2. 
+  - PW_SOC_TITLE - Occupational title associated with the SOC/O*NET Code. Form ETA9089, Section F, Item 3. 
+  - COUNTRY_OF_CITIZENSHIP - Country of citizenship of the foreign worker being sponsored by the employer for permanent employment in the United States.
+  - CLASS_OF_ADMISSION - Indicates the current visa status of the foreign worker.
+  - FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level achieved by the foreign worker.
 
 - Target Variable- CASE_STATUS
 
