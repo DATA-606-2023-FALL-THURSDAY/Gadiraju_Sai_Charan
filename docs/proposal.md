@@ -23,6 +23,7 @@ For this data science final project, I will analyze the PERM (Program Electronic
 - Source: [Dataset Source](https://www.dol.gov/agencies/eta/foreign-labor/performance)  U.S. Department of Labor, ETA
 - Data Size: 1069.51 MB
 - Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
+- Every row describes applicant information.
 - Columns:
   - CASE_NUMBER - Unique identifier assigned to each application submitted for processing to OFLC.
   - DECISION_DATE - Date on which the determination was issued by OFLC.
