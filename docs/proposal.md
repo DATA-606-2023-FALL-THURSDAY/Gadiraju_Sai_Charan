@@ -113,17 +113,3 @@ Are there any outliers or anomalies in specific years that require investigation
 
 Is there a correlation between factors like offered wages and approval rates?
 Can we identify any strong relationships between variables using correlation matrices?
-
-13. Visualization of Denials:
-
-Visualize the reasons for application denials or withdrawals, highlighting common issues.
-Are there trends in the types of documentation problems leading to denials?
-
-14. Policy Analysis:
-
-Use visualizations to highlight policy changes over the years and their potential impact on certification rates.
-Are there notable changes in the data coinciding with specific policy changes?
-
-15. Interactive Dashboards:
-
-Create interactive dashboards to allow users to explore the data, filter by various criteria, and gain insights on-demand.
