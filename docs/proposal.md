@@ -46,6 +46,8 @@ For this data science final project, I will analyze the PERM (Program Electronic
   CLASS_OF_ADMISSION - Indicates the current visa status of the foreign worker.
   FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level achieved by the foreign worker.
 
+- Target Variable- CASE_STATUS
+
 ## Project Objective
 
 The primary objective of this data science project is to explore, analyze, and gain insights from the PERM program disclosure data for the fiscal years 2022, 2021, 2020, and 2019. I aim to answer various research questions, uncover trends, and provide valuable information.
