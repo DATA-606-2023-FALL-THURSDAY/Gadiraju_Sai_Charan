@@ -1,6 +1,6 @@
 # Title and Author
 
-- **Project Title**: Data Analysis for H1B VISA
+- **Project Title**: H1B VISA Data Analysis 
 - **Prepared for UMBC Data Science Master Degree Capstone by**: Dr. Chaojie (Jay) Wang
 - **Author**: Gadiraju Sai Charan
 - **Link to the author's GitHub profile**: [GitHub Profile](https://github.com/Saicharan0297)
@@ -10,7 +10,21 @@
 
 # Background
 
-For this data science final project, I will analyze the PERM (Program Electronic Review Management) disclosure files provided by the U.S. Department of Labor's Employment and Training Administration (ETA). These disclosure files contain valuable information about foreign labor certification programs in the United States.
+For this final project, I will analyze the PERM (Program Electronic Review Management) disclosure files provided by the U.S. Department of Labor's Employment and Training Administration (ETA). These disclosure files contain valuable information about foreign labor certification programs in the United States.
+
+## What is H-1B VISA?
+- H-1B visas are a category of employment-based, non-immigrant visas for temporary foreign workers in the United States. 
+- For a foreign national to apply for H1-B visa, a US employer must offer them a job and submit a petition for a H-1B visa to the US immigration department. 
+- This is also the most common visa status applied for and held by international students once they complete college or higher education and begin working in a full-time position.
+- The duration of stay is three years, extendable to six years, after which the visa holder may need to reapply.
+
+## Quick facts about H1B Visa lottery:
+
+- The Immigration Act of 1990 established a limit of 65,000 foreign nationals who may be issued a visa each fiscal year.
+- An additional 20,000 H-1Bs are available to foreign nationals holding a master's or higher degree from U.S. universities.
+- In addition, excluded from the ceiling are all H-1B non-immigrants who work at universities, non-profit research facilities associated with universities, and government research facilities.
+- Person in H-1B status must continue to be employed by their employer in order to stay in H-1B status. If the person's employment ends for any reason, the person must leave the United States, unless the person is granted a change of status or finds another employer compatible with the H-1B status.
+- The United States Citizenship and Immigration Services allows grace period of up to 60 days to stay in the United States after the person's end of employment.
 
 ### Data Source
 - **Data Provider**: U.S. Department of Labor, ETA
@@ -40,14 +54,14 @@ For this data science final project, I will analyze the PERM (Program Electronic
   - EMPLOYER_PHONE
   - EMPLOYER_PHONE_EXT
   - EMPLOYER_NUM_EMPLOYEES - Total Number of employees employed by employer. Form ETA-9089, Section C, Item 5. 
-  - FW_OWNERSHIP_INTEREST - Identifies if the foreign worker has ownership interest or familial relationship with the Employer. Y = Foreign Worker has Ownership Interest; N = Foreign Worker has no Ownership Interest. Form ETA9089, Section C, Item 9. 
+  - FW_OWNERSHIP_INTEREST - Identifies if the foreign worker has an ownership interest or familial relationship with the Employer. Y = Foreign Worker has Ownership Interest; N = Foreign Worker has no Ownership Interest. Form ETA9089, Section C, Item 9. 
   - PW_SOC_CODE - Occupational code associated with the job being requested for permanent labor certification, as classified by the Standard Occupational Classification (SOC) System. Form ETA-9089, Section F, Item 2. 
   - PW_SOC_TITLE - Occupational title associated with the SOC/O*NET Code. Form ETA9089, Section F, Item 3. 
   - COUNTRY_OF_CITIZENSHIP - Country of citizenship of the foreign worker being sponsored by the employer for permanent employment in the United States.
   - CLASS_OF_ADMISSION - Indicates the current visa status of the foreign worker.
-  - FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level achieved by the foreign worker.
+  - FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level the foreign worker achieves.
 
-- Target Variable- CASE_STATUS
+### Target Variable- CASE_STATUS - Valid values include “Certified”, “Certified-Expired”, “Denied”, and “Withdrawn”
 
 ## Project Objective
 
@@ -55,62 +69,10 @@ The primary objective of this data science project is to explore, analyze, and g
 
 # Research Questions
 
-1. Trend Analysis:
-
-What is the trend in the number of PERM applications filed over the selected fiscal years?
-Can we identify any seasonality or long-term trends in application submissions?
-
-2. Approval Rates Over Time:
-
-How have the approval rates for PERM applications changed from 2019 to 2022?
-Are there any noticeable variations in approval rates across different industries or regions?
-
-3. Processing Time Trends:
-
-Is there a trend in the average processing time for PERM applications?
-Have processing times improved or worsened over the years?
-
-4. Industry Insights:
-
-Which industries have the highest and lowest certification rates?
-Can we visualize the distribution of approved applications across various sectors?
-
-5. Geographical Analysis:
-
-What are the top states with the highest number of PERM applications?
-Are there states where the approval rates significantly differ from the national average?
-
-6. Top Occupations:
-
-Which job categories consistently receive the most certifications?
-Can we visualize the top occupations that foreign workers are hired for?
-
-7. Wage Distribution:
-
-How does the wage distribution vary across different job categories?
-Are there job categories where the offered wages tend to be higher or lower?
-
-8. Country of Origin:
-
-What are the primary countries of origin for foreign workers in PERM applications?
-Can we visualize the diversity in the nationalities of foreign workers?
-
-9. Processing Times by Country:
-
-Are there significant differences in processing times for applications from specific countries?
-Can we visualize the average processing times by country of the foreign worker?
-
-10. Impact of Visa Preference:
-
-How does the choice of visa preference category affect approval rates?
-Are certain preference categories more likely to lead to certification?
-
-11. Changes Over Fiscal Years:
-
-Can we identify any noteworthy changes in the data trends or patterns between 2019 and 2022?
-Are there any outliers or anomalies in specific years that require investigation?
-
-12. Correlation Analysis:
-
-Is there a correlation between factors like offered wages and approval rates?
-Can we identify any strong relationships between variables using correlation matrices?
+- How the number of visa applications is increasing over the years (2019-2022).
+- Top Companies offering H1B sponsorships.
+- Key roles that are being offered Sponsorships.
+- Salary distribution for the roles being offered.
+- How the Data related roles look like.
+- Acceptance and Rejection rate.
+- Which part of the United States records more applications?
