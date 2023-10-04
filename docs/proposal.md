@@ -28,38 +28,29 @@ For this final project, I will analyze the PERM (Program Electronic Review Manag
 
 ### Data Source
 - **Data Provider**: U.S. Department of Labor, ETA
-- **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019 Disclosure Files](https://www.dol.gov/agencies/eta/foreign-labor/performance)
+- **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019 Disclosure Files]([https://www.dol.gov/agencies/eta/foreign-labor/performance](https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions))
 - **Data Description**: The dataset consists of disclosure files for the PERM program, a labor certification program for employers seeking to hire foreign workers for permanent employment in the United States.
 
 # Data
 
 - The dataset consists of last four years information (2019-2022)
-- Source: [Dataset Source](https://www.dol.gov/agencies/eta/foreign-labor/performance)  U.S. Department of Labor, ETA
-- Data Size: 1069.51 MB
-- Data Shape (Number of Rows and Columns): Number of rows: 1320781, Number of columns: 22
+- Source: [Dataset Source]([https://www.dol.gov/agencies/eta/foreign-labor/performance](https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions))  U.S. Department of Labor, ETA
+- Data Size: 454.7+ MB
+- Data Shape (Number of Rows and Columns): Number of rows: 3973349, Number of columns: 14
 - Every row describes applicant information.
 - Columns:
-  - CASE_NUMBER - Unique identifier assigned to each application submitted for processing to OFLC.
-  - DECISION_DATE - Date on which the determination was issued by OFLC.
+  Visa_Class -  It typically refers to the category or type of visa an individual is applying for, such as H-1B, H-1B1, E-3, etc.
+  - EMPLOYER_NAME - Legal business name of the employer requesting permanent labor certification.
+  - SOC_Title - This refers to the Standard Occupational Classification (SOC) title, which is a standardized system used to classify and categorize occupations in the United States.
+  - Job_Title - It refers to the specific designation or title associated with a particular employment position held by an individual, often indicating the nature or type of work they perform within an organization.
+  - Full_Time_Position - It typically denotes whether a job or position is designated as a full-time role, indicating that the employee is expected to work a standard number of hours per week, usually 35-40 hours, depending on the organization's policy.
+  - Worksite - "Worksite" refers to the physical location or geographical site where employees perform their job duties. In the context of visa applications, it could represent the specific location or address of the employer where the work is primarily carried out.
+  - Prevailing_Wage - "Prevailing_Wage" is the average wage paid to similarly employed workers in a specific occupation in a particular geographic area, as determined by the U.S. Department of Labor. It serves as a baseline to ensure that foreign workers are not being paid less than the average for their job and locations.
+  - Unit_Of_Pay - It refers to the measurement or basis used to specify the compensation for a particular job, such as hourly, weekly, monthly, or annually. It indicates how the salary or wage for a position is calculated and presented.
+  - Employer_Location - It refers to the geographic location or address where the employer's main office or headquarters is situated.
+  - Employer_Country - It refers to the country where the employer is based or headquartered. It signifies the home country of the organization submitting the visa application.
   - CASE_STATUS - Status associated with the last significant event or decision. Valid values include “Certified”, “Certified-Expired”, “Denied”, and “Withdrawn”. 
-  - REFILE - Identifies if application was previously filed. Y = Employer has previously submitted an Application. N = Employer has not previously submitted an Application. Form ETA-9089, Section A, Item 1. 
-  - ORIG_FILE_DATE - Date application was originally filed (if applicable). Form ETA-9089, Section A, Item 1-A. 
-  - SCHD_A_SHEEPHERDER - Identifies whether the application is in support of Schedule A or a Sheepherder Occupation. Y = Application is in support of a Schedule A or Sheepherder Occupation. N = Application is not in support of a Schedule A or Sheepherder Occupation. Form ETA-9089, Section B, Item 1. 
-  - EMPLOYER_NAME - Legal business name of employer requesting permanent labor certification. Form ETA-9089, Section C, Item 1. 
-  - EMPLOYER_ADDRESS_1 - Contact information of the employer requesting permanent labor certification. Form ETA-9089, Section C, Items 2 through 4. 
-  - EMPLOYER_ADDRESS_2 
-  - EMPLOYER_CITY
-  - EMPLOYER_COUNTRY
-  - EMPLOYER_POSTAL_CODE
-  - EMPLOYER_PHONE
-  - EMPLOYER_PHONE_EXT
-  - EMPLOYER_NUM_EMPLOYEES - Total Number of employees employed by employer. Form ETA-9089, Section C, Item 5. 
-  - FW_OWNERSHIP_INTEREST - Identifies if the foreign worker has an ownership interest or familial relationship with the Employer. Y = Foreign Worker has Ownership Interest; N = Foreign Worker has no Ownership Interest. Form ETA9089, Section C, Item 9. 
-  - PW_SOC_CODE - Occupational code associated with the job being requested for permanent labor certification, as classified by the Standard Occupational Classification (SOC) System. Form ETA-9089, Section F, Item 2. 
-  - PW_SOC_TITLE - Occupational title associated with the SOC/O*NET Code. Form ETA9089, Section F, Item 3. 
-  - COUNTRY_OF_CITIZENSHIP - Country of citizenship of the foreign worker being sponsored by the employer for permanent employment in the United States.
-  - CLASS_OF_ADMISSION - Indicates the current visa status of the foreign worker.
-  - FOREIGN_WORKER_INFO_MAJOR - Major field(s) of study in reference to the highest level the foreign worker achieves.
+  -  Year - It indicates the year of applications.
 
 ### Target Variable- CASE_STATUS - Valid values include “Certified”, “Certified-Expired”, “Denied”, and “Withdrawn”
 
@@ -69,10 +60,4 @@ The primary objective of this data science project is to explore, analyze, and g
 
 # Research Questions
 
-- How the number of visa applications is increasing over the years (2019-2022).
-- Top Companies offering H1B sponsorships.
-- Key roles that are being offered Sponsorships.
-- Salary distribution for the roles being offered.
-- How the Data related roles look like.
-- Acceptance and Rejection rate.
-- Which part of the United States records more applications?
+"What are the trends and patterns in H1B visa applications in the United States from 2017 to 2022, focusing on factors such as the overall growth in the number of applications, the top companies providing H1B sponsorships, key roles in demand, salary distributions for these roles, characteristics of data-related roles, acceptance and rejection rates, and geographical concentrations of applications across different parts of the United States?"
