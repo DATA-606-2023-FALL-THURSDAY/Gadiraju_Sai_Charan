@@ -27,16 +27,16 @@ For this final project, I will analyze the PERM (Program Electronic Review Manag
 - The United States Citizenship and Immigration Services allows grace period of up to 60 days to stay in the United States after the person's end of employment.
 
 ### Data Source
-- **Data Provider**: U.S. Department of Labor, ETA
-- **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019 Disclosure Files]([https://www.dol.gov/agencies/eta/foreign-labor/performance](https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions))
+- **Data Provider**: Kaggle, and U.S. Department of Labor, ETA
+- **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019, 2018, 2017 Disclosure Files]([(https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions)])
 - **Data Description**: The dataset consists of disclosure files for the PERM program, a labor certification program for employers seeking to hire foreign workers for permanent employment in the United States.
 
 # Data
 
-- The dataset consists of last four years information (2019-2022)
+- The dataset consists of last four years information (2017-2022)
 - Source: [Dataset Source]([https://www.dol.gov/agencies/eta/foreign-labor/performance](https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions))  Kaggle,LCA-programs-h1b-h1b1-e3-visa-petitions, U.S. Department of Labor, ETA
-- Data Size: 454.7+ MB
-- Data Shape (Number of Rows and Columns): Number of rows: 3973349, Number of columns: 14
+- Data Size: 424.4+ MB
+- Data Shape (Number of Rows and Columns): Number of rows: 3973349, Number of columns: 13
 - Every row describes applicant information.
 - Columns:
   Visa_Class -  It typically refers to the category or type of visa an individual is applying for, such as H-1B, H-1B1, E-3, etc.
