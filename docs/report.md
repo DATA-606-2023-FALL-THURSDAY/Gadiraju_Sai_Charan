@@ -63,17 +63,35 @@ The primary objective of this data science project is to explore, analyze, and g
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/1.JPG">
 
+ **Observation:**
+ The above bar chart shows the case status vs number of petitions for 2017-2022.
+- There are four values for case status column.
+- There are total of 3611457 petitions for 'CERTIFIED', 227347 for 'CERTIFIED-WITHDRAWN', 100097 for 'WITHDRAWN', and 34448 for 'DENIED'.
+
 **2. Total number of Applications per year**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/2.JPG">
+
+  **Observation:**
+- The year 2021 has the highest number of applications '826305'.
+- Almost for the year 2022, 2019, 2018, and 2017 the number of applications are same.
+- The least is in the year 2020, maybe there can be few reasons as one of them is COVID pandemic.
 
  **3. The top 15 employers filing the H1-B visa petitions**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/3.JPG">
 
+ **Observation:**
+- Cognizant, Infosys Ltd, and Tata Consultancy are among the Top 3 employers filing for H1B.
+- Also the Top Giant, Google, Amazon, and microsoft filed more than the average petitions.
+
  **4. The top 15 SOC names for which H1-B visas are raised**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/4.JPG">
+
+ **Observation:**
+- Software Developers are among the Top in demand positions. There is a huge difference between Top 2 demand positions.
+- We can see the trend is towards the information technology related positions that have been filed for H1B visas during 2017-2022.
 
  **5. Acceptance rate of the H1-B Visa petitions through different years**
 
@@ -81,18 +99,35 @@ The primary objective of this data science project is to explore, analyze, and g
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.1.JPG">
 
+ **Observation:**
+- The number of petitions almost increasing every year, rather than 2020 as it is an exception year due to COVID pandemic.
+- Even in 2020, almost 600000 petitions were applied.
+- The highest was in 2021, with almost 800000 petitions.
+- The acceptance ratio is more than 80% in each year.
+
  **6. Salaries trend per year**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/6.JPG">
+
+ **Observation:**
+- The median wage is increasing every year. 
+- There has been atleast 10% increase in wages except in 2022.
+- The year 2020 has seen a decrease in the median wage.
 
  **7. Top Job Titles**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/7.JPG">
 
+**Observation:**
+- The Job title, Software engineer and software developer are the Top 2 during 2017-2022.
+- As we can see the Top 10 Job Title are from the Information Technology related fields.
+
  **8. Number of applications for the Full Time Positions**
 
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/8.JPG">
- 
+
+ **Observation:**
+- We see almost 90% of the Job applied are 'Full Time Positions'.
 
 # Techniques and Models
 
