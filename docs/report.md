@@ -1,5 +1,4 @@
-**#Project Report**
-
+                                                              
 # Title and Author
 
 - **Project Title**: H1B VISA Data Analysis 
@@ -20,14 +19,6 @@ For this final project, I will analyze the PERM (Program Electronic Review Manag
 - This is also the most common visa status applied for and held by international students once they complete college or higher education and begin working in a full-time position.
 - The duration of stay is three years, extendable to six years, after which the visa holder may need to reapply.
 
-## Quick facts about H1B Visa lottery:
-
-- The Immigration Act of 1990 established a limit of 65,000 foreign nationals who may be issued a visa each fiscal year.
-- An additional 20,000 H-1Bs are available to foreign nationals holding a master's or higher degree from U.S. universities.
-- In addition, excluded from the ceiling are all H-1B non-immigrants who work at universities, non-profit research facilities associated with universities, and government research facilities.
-- Person in H-1B status must continue to be employed by their employer in order to stay in H-1B status. If the person's employment ends for any reason, the person must leave the United States, unless the person is granted a change of status or finds another employer compatible with the H-1B status.
-- The United States Citizenship and Immigration Services allows grace period of up to 60 days to stay in the United States after the person's end of employment.
-
 ### Data Source
 - **Data Provider**: Kaggle, and U.S. Department of Labor, ETA
 - **Dataset Link**: [PERM Program - Fiscal Year 2022, 2021, 2020, 2019, 2018, 2017 Disclosure Files]([(https://www.kaggle.com/datasets/jishnukoliyadan/lca-programs-h1b-h1b1-e3-visa-petitions)])
@@ -41,7 +32,7 @@ For this final project, I will analyze the PERM (Program Electronic Review Manag
 - Data Shape (Number of Rows and Columns): Number of rows: 3973349, Number of columns: 13
 - Every row describes applicant information.
 - Columns:
-  Visa_Class -  It typically refers to the category or type of visa an individual is applying for, such as H-1B, H-1B1, E-3, etc.
+  - Visa_Class -  It typically refers to the category or type of visa an individual is applying for, such as H-1B, H-1B1, E-3, etc.
   - EMPLOYER_NAME - Legal business name of the employer requesting permanent labor certification.
   - SOC_Title - This refers to the Standard Occupational Classification (SOC) title, which is a standardized system used to classify and categorize occupations in the United States.
   - Job_Title - It refers to the specific designation or title associated with a particular employment position held by an individual, often indicating the nature or type of work they perform within an organization.
@@ -58,13 +49,26 @@ For this final project, I will analyze the PERM (Program Electronic Review Manag
 
 ## Project Objective
 
-The primary objective of this data science project is to explore, analyze, and gain insights from the PERM program disclosure data for the fiscal years 2022, 2021, 2020, and 2019. I aim to answer various research questions, uncover trends, and provide valuable information.
+The primary objective of this data science project is to explore, analyze, and gain insights from the PERM program disclosure data for the fiscal years 2017-2022. I aim to answer various research questions, uncover trends, and provide valuable information.
 
 # Research Questions
 
 "What are the trends and patterns in H1B visa applications in the United States from 2017 to 2022, focusing on factors such as the overall growth in the number of applications, the top companies providing H1B sponsorships, key roles in demand, salary distributions for these roles, characteristics of data-related roles, acceptance and rejection rates, and geographical concentrations of applications across different parts of the United States?"
 
+"Finding the accuracy using Logistic Regression, Random Forest, and Decision Tree Classifiers."
+
 # EDA 
+
+1. Number of petitions per Case Status
+
+  <img src="Images/1.jpeg"/>
+3. Total number of Applications per year
+4. The top 15 employers filing the H1-B visa petitions
+5. The top 15 SOC names for which H1-B visas are raised
+6. Acceptance rate of the H1-B Visa petitions through different years
+7. Salaries trend per year
+8. Top Job Titles
+9. Number of applications for the Full Time Positions
 
 # Techniques and Models
 
