@@ -57,20 +57,49 @@ The primary objective of this data science project is to explore, analyze, and g
 
 "Finding the accuracy using Logistic Regression, Random Forest, and Decision Tree Classifiers."
 
-# EDA 
+# EDA  
 
-1. Number of petitions per Case Status
+**1. Number of petitions per Case Status**
 
-  <img src="Images/1.jpeg"/>
-3. Total number of Applications per year
-4. The top 15 employers filing the H1-B visa petitions
-5. The top 15 SOC names for which H1-B visas are raised
-6. Acceptance rate of the H1-B Visa petitions through different years
-7. Salaries trend per year
-8. Top Job Titles
-9. Number of applications for the Full Time Positions
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/1.JPG">
+
+**2. Total number of Applications per year**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/2.JPG">
+
+ **3. The top 15 employers filing the H1-B visa petitions**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/3.JPG">
+
+ **4. The top 15 SOC names for which H1-B visas are raised**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/4.JPG">
+
+ **5. Acceptance rate of the H1-B Visa petitions through different years**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.JPG">
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.1.JPG">
+
+ **6. Salaries trend per year**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/6.JPG">
+
+ **7. Top Job Titles**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/7.JPG">
+
+ **8. Number of applications for the Full Time Positions**
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/8.JPG">
+ 
 
 # Techniques and Models
+
+I will be using Machine Learning Techniques to find out the accuracy using three classifiers:
+- **1. Random Forest**
+- **2. Decision Tree**
+- **3. Logistic Regression**
 
 # Outcome
 
