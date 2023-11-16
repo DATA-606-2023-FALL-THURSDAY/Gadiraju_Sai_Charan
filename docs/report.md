@@ -124,7 +124,7 @@ The primary objective of this data science project is to explore, analyze, and g
 
  **8. Number of applications for the Full Time Positions**
 
- <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/8.JPG">
+ <img width="400" height="400" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/8.JPG">
 
  **Observation:**
 - We see almost 90% of the Job applied are 'Full Time Positions'.
@@ -132,10 +132,69 @@ The primary objective of this data science project is to explore, analyze, and g
 # Techniques and Models
 
 I will be using Machine Learning Techniques to find out the accuracy using three classifiers:
-- **1. Random Forest**
-- **2. Decision Tree**
-- **3. Logistic Regression**
 
-# Outcome
+**1. Random Forest**
+- **Accuracy:** 0.9570
+- **Precision Score:** 0.9656
+- **Recall Score:** 0.9852
+- **F1 Score:** 0.9757
+
+**2. Decision Tree**
+- **Accuracy:** 0.9566
+- **Precision Score:** 0.9664
+- **Recall Score:** 0.9852
+- **F1 Score:** 0.9757
+  
+**3. Logistic Regression**
+- **Accuracy:** 0.9604
+- **Precision Score:** 0.9664
+- **Recall Score:** 0.9852
+- **F1 Score:** 0.9757
+
+# Conclusion
+
+### Petition Distribution (Case Status):
+
+- **Certified:** 3,611,457 petitions
+- **Certified-Withdrawn:** 227,347 petitions
+- **Withdrawn:** 100,097 petitions
+- **Denied:** 34,448 petitions
+
+### Application Trends:
+
+- Peak in 2021 with 826,305 applications
+- Consistent numbers for 2022, 2019, 2018, and 2017
+- Decrease in 2020, attributed to the COVID-19 pandemic
+
+### Top Employers:
+
+- Cognizant, Infosys Ltd, Tata Consultancy lead in filings
+- Tech giants (Google, Amazon, Microsoft) exceed average petitions
+
+### Occupation Trends:
+
+- Software Developers in high demand
+- Clear shift toward IT-related positions
+
+### Petition Numbers:
+
+- Generally increasing annually (except 2020)
+- Exceptional 2021 with almost 800,000 petitions
+- Acceptance ratio consistently above 80%
+
+### Wage Analysis:
+
+- Median wage increases yearly (except 2022)
+- Notable decrease in 2020
+- Overall trend reflects salary growth
+
+### Top Job Titles:
+
+- Software Engineer and Software Developer dominate
+- Information Technology fields dominate the top 10
+
+### Classifier Accuracy:
+
+- Random Forest, Logistic Regression, and Decision Tree exhibit consistent 96% accuracy
 
 # References
