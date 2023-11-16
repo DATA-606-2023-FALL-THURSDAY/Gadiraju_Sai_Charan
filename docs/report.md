@@ -1,7 +1,7 @@
                                                               
 # Title and Author
 
-- **Project Title**: H1B VISA Data Analysis 
+- **Project Title**: Capstone Project on H1 VISA Status Prediction using Machine Learning Models 
 - **Prepared for UMBC Data Science Master Degree Capstone by**: Dr. Chaojie (Jay) Wang
 - **Author**: Gadiraju Sai Charan
 - **Link to the author's GitHub profile**: [GitHub Profile](https://github.com/Saicharan0297)
@@ -11,7 +11,7 @@
 
 # Background
 
-For this final project, I will analyze the PERM (Program Electronic Review Management) disclosure files provided by the U.S. Department of Labor's Employment and Training Administration (ETA). These disclosure files contain valuable information about foreign labor certification programs in the United States.
+For this project, I will analyze the PERM (Program Electronic Review Management) disclosure files provided by the U.S. Department of Labor's Employment and Training Administration (ETA). These disclosure files contain valuable information about foreign labor certification programs in the United States.
 
 ## What is H-1B VISA?
 - H-1B visas are a category of employment-based, non-immigrant visas for temporary foreign workers in the United States. 
@@ -197,4 +197,14 @@ I will be using Machine Learning Techniques to find out the accuracy using three
 
 - Random Forest, Logistic Regression, and Decision Tree exhibit consistent 96% accuracy
 
-# References
+# Future Research
+
+### 1. Explainable AI in H1B Visa Lottery Predictions:
+- Develop and enhance explainable AI models that can provide clear insights into the factors influencing H1B visa lottery outcomes. This research is critical to ensure transparency in the decision-making process, helping both applicants and immigration officials understand the basis for lottery predictions.
+
+### 2. Fairness and Bias Mitigation in Lottery Predictions:
+- Investigate and address potential biases in H1B visa lottery prediction models. Ensuring fairness across demographic and socio-economic factors is crucial to prevent discrimination and promote an equitable distribution of visa opportunities. This research could involve the development of techniques to identify and mitigate biases in the prediction process.
+
+### 3. Optimization Strategies for H1B Visa Applications:
+- Explore optimization techniques that guide applicants in maximizing their chances of selection in the lottery. This research can involve the development of algorithms that analyze historical data and lottery criteria to provide recommendations for optimizing application submissions. Optimizing the application process can be valuable for both applicants and immigration authorities in managing the lottery efficiently.
+
