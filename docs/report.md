@@ -7,7 +7,7 @@
 - **Semester**: Fall 2023
 - **Link to the author's GitHub profile**: [GitHub Profile](https://github.com/Saicharan0297)
 - **Link to the author's LinkedIn profile**: [LinkedIn Profile](https://www.linkedin.com/in/sai-charan-gadiraju/)
-- **Link to PowerPoint presentation file**: [Powerpoint](https://docs.google.com/presentation/d/13YzC6lJ1Zvwsb6D2A8tno6RBORLQCsaa/edit?usp=sharing&ouid=100543255517511200679&rtpof=true&sd=true)
+- **Link to PowerPoint presentation file**: [Powerpoint](https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/H1%20VISA.pptx)
 - **Link to Youtube Video**: Will Update later
 
 # Background
