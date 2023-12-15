@@ -95,9 +95,9 @@ The primary objective of this data science project is to explore, analyze, and g
 
  **5. Acceptance rate of the H1-B Visa petitions through different years**
 
- <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.JPG">
-
  <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.1.JPG">
+
+ <img width="700" height="500" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Gadiraju_Sai_Charan/blob/main/Images/5.2.JPG">
 
  **Observation:**
 - The number of petitions almost increasing every year, rather than 2020 as it is an exception year due to COVID pandemic.
