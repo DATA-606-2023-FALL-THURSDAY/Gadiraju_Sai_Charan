@@ -4,6 +4,7 @@
 - **Project Title**: Capstone Project on H1 VISA Status Prediction using Machine Learning Models 
 - **Prepared for UMBC Data Science Master Degree Capstone by**: Dr. Chaojie (Jay) Wang
 - **Author**: Gadiraju Sai Charan
+- **Semester**: Fall 2023
 - **Link to the author's GitHub profile**: [GitHub Profile](https://github.com/Saicharan0297)
 - **Link to the author's LinkedIn profile**: [LinkedIn Profile](https://www.linkedin.com/in/sai-charan-gadiraju/)
 - **Link to PowerPoint presentation file**: [Powerpoint](https://docs.google.com/presentation/d/13YzC6lJ1Zvwsb6D2A8tno6RBORLQCsaa/edit?usp=sharing&ouid=100543255517511200679&rtpof=true&sd=true)
